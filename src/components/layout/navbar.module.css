@@ -1,0 +1,31 @@
+button {
+  background: #b9c8da;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  
+  background: #457B9D;
+  border-top: 1px solid #396581;
+  border-radius: 0px;
+  height: 50px;
+  width: 100%;
+}
+
+button:first-of-type{
+  border: none;
+}
+
+button:hover,
+button:focus {
+    background: #396581;
+}
