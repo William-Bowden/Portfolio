@@ -11,6 +11,7 @@ export default class Navbar extends React.Component {
     return (
       <div
         style={{
+          alignContent: "stretch",
           alignItems: "center",
           backgroundColor: "#F1FAEE",
           borderRight: "1px solid #396581",
@@ -30,7 +31,7 @@ export default class Navbar extends React.Component {
 
         <div
           style={{
-            marginTop: "50px",
+            // marginTop: "50px",
           }}
         >
           <button />
@@ -41,11 +42,12 @@ export default class Navbar extends React.Component {
 
         <div
           style={{
-            marginTop: "50px",
+            bottom: "0",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
             justifyContent: "center",
+            position: "absolute",
           }}
         >
           <TechIcon src={gatsbyIcon} />
