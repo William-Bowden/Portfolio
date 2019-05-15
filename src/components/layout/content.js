@@ -8,15 +8,6 @@ import css from "./content.module.css"
 
 export default class Footer extends React.Component {
   render() {
-    var settings = {
-      autoplay: true,
-      autoplaySpeed: 5000,
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-    }
     return (
       <div
         style={{
@@ -26,31 +17,6 @@ export default class Footer extends React.Component {
           width: "100%",
         }}
       >
-        <Slider {...settings}
-        style={{
-          height: "100%",
-          width: "100%",
-        }}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
-
         <ItemLayout>
           <Item />
         </ItemLayout>
