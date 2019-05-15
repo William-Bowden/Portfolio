@@ -1,23 +1,35 @@
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
-    border-radius: 15px;
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #e6e5e5; 
-    border-radius: 15px;
-    margin: 15px 0 15px 0;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(189, 185, 185); 
-    border-radius: 15px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(148, 145, 145); 
-  }
+  width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e6e5e5 !important;
+  margin: 15px 0 15px 0 !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(189, 185, 185) !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(148, 145, 145) !important;
+}
