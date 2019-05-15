@@ -1,6 +1,5 @@
 import React from "react"
 
-import Slider from "react-slick"
 import ItemLayout from "./content/itemLayout"
 import Item from "./content/item"
 
@@ -17,10 +16,11 @@ export default class Footer extends React.Component {
           width: "100%",
         }}
       >
+        {/* carousel goes here */}
+
         <ItemLayout>
           <Item />
         </ItemLayout>
-
         <ItemLayout>
           <Item />
           <Item />
